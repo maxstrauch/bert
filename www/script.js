@@ -218,9 +218,9 @@ function update() {
       }
 
       if (e.state == 4) {
-        heading.appendChild(document.createTextNode(e.name + " (" + e.state + ")"));
+        heading.appendChild(document.createTextNode(e.name));
       } else {
-        heading.appendChild(document.createTextNode(e.url + " (" + e.state + ")"));
+        heading.appendChild(document.createTextNode(e.url));
       }
       
       // Add delete action only if not already deleted or downloaded
@@ -317,6 +317,7 @@ function updateScriptExec() {
             $('script-exit').onclick = function() {
               this.onclick = undefined;
               $('script-out').style.display = 'none';
+              return false;
             };
           }
         }, {'cmd': 'user-script'});
@@ -374,6 +375,7 @@ window.onload = function() {
     }, opts);
     $('addr').value = '';
     $('force').checked = false;
+    return false;
   };
 
   $("load").onclick = loadFile;
@@ -381,6 +383,7 @@ window.onload = function() {
     if (e.keyCode == 13) {
       loadFile(e);
     }
+    return false;
   };
 
   // Handle clear all downloads request
@@ -395,6 +398,7 @@ window.onload = function() {
         }, {'cmd': 'clear-all'}
       );
     }
+    return false;
   };
 
   // Handle user script execution

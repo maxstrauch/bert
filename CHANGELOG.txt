@@ -1,0 +1,14 @@
+Bert 0.42.1, 2016-01-04
+---------------------
+ - Added automatic download folder creation if not present
+ - Tweaked client script to return false on link click and
+   therefore don't show the hash character in the URL
+ - Added this `CHANGELOG.txt` file to project
+ - Added a favicon to the index.html page (and also a new
+   MIME type to serve *.ico files)
+ - Added a screenshot to the description
+ - Removed some debug code `from www/script.js`
+
+Bert 0.42, 2016-01-04
+---------------------
+ - Initial version

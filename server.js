@@ -17,7 +17,7 @@ var DOWNLOAD_DIR = 'downloads/';
 // Name of this application (DO NOT CHANGE!)
 var APP_NAME = 'Bert';
 // Version of this application (DO NOT CHANGE!)
-var APP_VERSION = '0.42';
+var APP_VERSION = '0.42.1';
 // Script to be executed when the user clicks on "Run user script".
 // The second argument takes the script name relative to this file
 var SCRIPT = require('./ScriptRunner.js').ScriptRunner('./script.sh');
@@ -63,10 +63,32 @@ function rmDir(dirPath) { //: boolean
   return true;
 }
 
+// Creates the download directory
+function createDownloadDir() {
+	// Make sure that there is a downloads directory
+	try {
+		if (fs.statSync(DOWNLOAD_DIR).isDirectory()) {
+			return; // Everything fine
+		}
+	} catch(e) {
+		// Don't watch; (re-)create directory
+	}
+
+	fs.mkdir(DOWNLOAD_DIR,function(e){
+	    if(e && !(e.code === 'EEXIST')){
+	        console.log(' *** Error creating dir `' + DOWNLOAD_DIR + '`: ' + e);
+	    } else {
+	    	console.log(' *** Oops! There was no `' + DOWNLOAD_DIR + '` dir');
+	    }
+	});
+}
+
 // Calculates the used disk space of the downloads 
 // by invoking the `du` command
 // FIXME: this function might not work properly (test & correct)
 function usedDsk() {
+	createDownloadDir();
+
 	var result = -1;
 	try {
 		var result = parseInt(
@@ -83,6 +105,8 @@ function usedDsk() {
 // Calculates the free disk space by parsing the `df` output
 // FIXME: this function might not work properly (test & correct)
 function freeDsk() {
+	createDownloadDir();
+
 	var result = -1;
 	try {
 		var result = 
@@ -126,7 +150,8 @@ function mimeLookup(extension) {
 		'ttf': 'font/truetype',
 		'woff': 'application/font-woff',
 		'woff2': 'application/font-woff2',
-		'png': 'image/png'
+		'png': 'image/png',
+		'ico': 'image/x-icon'
 	};
 	for (var key in list) {
 		if (key === extension) {
@@ -246,6 +271,7 @@ function load() {
 
 	// Scan the downloads directory for downloaded files and 
 	// add them to the view
+	createDownloadDir();
 	var files = fs.readdirSync(DOWNLOAD_DIR);
 	for (var i in files){
 	    var stat = fs.statSync(DOWNLOAD_DIR + '/' + files[i]);
