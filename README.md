@@ -1,6 +1,8 @@
 # Bert
 
-Bert is a very simple download manager written for the Raspberry Pi (or any other embedded Linux device). I often need to download large files which I don't want to download via my computer since it bothers me having a process which can't interrupted by accident or on purpose. The Raspberry Pi is near the router and can download all the day without disturbing anybody or anything.
+Bert is a very simple download manager written for the Raspberry Pi (or any other embedded Linux device). 
+
+'''I often need to download large files which I don't want to download via my computer since it bothers me having a process which can't interrupted by accident or on purpose. The Raspberry Pi is near the router and can download all the day without disturbing anybody or anything.'''
 
 Bert uses `wget` and some other linux command line tools (e.g. `du`, `df`) as backend. NodeJS provides the server and application logic and invokes `wget` through some wrapper object and parses it output. 
 
