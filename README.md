@@ -38,4 +38,6 @@ Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). Click 
 
 # Trivia
 
-I'm a huge fan of NCIS. Guess who Bert is ...
+I'm a huge fan of NCIS. Guess who Bert is ... 
+![Bert](/www/logo.png?raw=true)
+
