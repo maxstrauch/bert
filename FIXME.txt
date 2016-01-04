@@ -1,0 +1,5 @@
+ - Given 'http://creativecommons.org/licenses/by-sa/4.0/' Bert 0.42.1 
+   downloads the HTML file but displays the error message:
+
+      Error: ENOENT, no such file or directory ''
+ - Enhance error messages from `wget` (e.g. nicer)
