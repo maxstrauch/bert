@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bert</title>
+	<link href="style.css" rel="stylesheet" media="screen" type="text/css" />
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<!-- Info bar -->
+	<ul id="mmsg-board"></ul>
+
+	<!-- In case of a connection error display this overlay -->
+	<div id="fail" style="display: none;">
+		<div>
+			<img  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACAAgMAAAC+UIlYAAAACVBMVEVTU1P///9TU1P8g2f9AAAAAnRSTlMAAHaTzTgAAACFSURBVHhe7dY9CoBADITRqfd+XnJOKco6EC32h4VRzFdEMK9II4it0fdAggT3WEPNAKjmAfxA2UEC7QzA/mHxcaMNFDoBz6k8gNqT8IAQ8FeAtQBTAG4QBWxAAgZALY5xPkNtoARiYwDAWlDYC+pl1FBNoFYBXqOMAF0ooPed4G2/7gkS7LQn0KpfZWb2AAAAAElFTkSuQmCC" />
+			<h1>No connection to the backend!</h1>
+			<br/>
+			<a href="#" class="button" onclick="reload();">Reload the page</a>
+			<br/><br/>
+		</div>
+	</div>
+
+	<!-- Script data output -->
+	<div id="script-out" style="display: none;">
+		<div>
+			<pre id="script-data-out"></pre>
+			<br/>
+			<a href="#" id="script-exit" class="button disabled">Process finished, close window</a>
+			<br/><br/>
+		</div>
+	</div>
+
+	<!-- Main menu -->
+	<div class="pagemenu">
+		<div id="logo"><img src="logo.png" title="Bert" alt="Bert" /></div>
+		<h1>Bert Downloadserver</h1>
+		<div class="form">
+			<input type="text" id="addr" />
+			<input type="button" id="load" value="Load" /><br/>
+			<input type="checkbox" id="force" /><label for="force">Force download</label>
+			<div id="actions">
+				<b>Actions:</b>
+				<a href="#" id="on-clear-all">Clear downloads</a> | 
+				<a href="#" id="on-user-script">Run user script</a> |
+				<a href="#" id="on-shutdown">Shutdown server</a>
+			</div>
+		</div>
+		<div class="info">
+			<p><b>Used disk space:</b> <em id="useddsk"></em></p>
+			<div id="dskprog" class="footer progress"><div id="diskusage"></div></div>
+			<div class="space"></div>
+			<p class="meta-info" id="versions"></p>
+			<p class="meta-info"><a href="#" target="_blank" class="icon-github">Source &amp; more</a> | <a target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+		</div>
+
+	</div>
+
+	<!-- Dynamic file list -->
+	<ul id="output"></ul>
+</body>
+</html>

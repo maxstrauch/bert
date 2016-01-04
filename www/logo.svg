@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   id="svg3751"
+   version="1.1"
+   inkscape:version="0.91pre4 r13712"
+   sodipodi:docname="logo.svg"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs3753" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="8.6915208"
+     inkscape:cx="58.213825"
+     inkscape:cy="21.417895"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     inkscape:window-width="1440"
+     inkscape:window-height="792"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3756">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-250.31078,-282.33189)">
+    <path
+       style="color:#000000;fill:#8a8a8a;fill-rule:evenodd;stroke:#8a8a8a;stroke-width:1.00482011;stroke-opacity:1;fill-opacity:1"
+       d="M 27.173828 0.82226562 C 24.033928 1.3205856 21.483109 3.6392887 19.849609 6.2304688 C 18.482609 6.8572588 16.863181 6.9990037 15.425781 6.9335938 C 13.639581 4.5653737 9.4749066 3.8978625 7.5664062 6.4453125 C 5.8541063 8.6030125 5.8018906 11.618448 6.4628906 14.142578 C 3.5128906 19.356658 2.748925 25.728641 3.890625 31.582031 C 5.473325 37.967191 11.263722 42.470723 17.419922 44.126953 C 18.319222 44.446393 19.402709 44.537484 20.224609 44.835938 C 20.462109 46.745567 22.713919 47.015542 24.261719 46.951172 C 25.931319 46.923472 28.474103 47.419666 29.283203 45.478516 C 29.686803 44.885606 29.153016 43.728996 30.166016 43.759766 C 31.732416 43.295216 33.2894 42.810222 34.8125 42.232422 C 34.7016 43.125702 35.5521 44.035067 36.4375 43.529297 C 38.2557 42.502867 40.720828 41.409631 40.923828 39.025391 C 41.208828 38.298211 42.129069 37.898956 42.542969 37.197266 C 45.520569 33.344566 44.787809 27.984312 43.412109 23.632812 C 42.894709 21.853493 41.743678 20.802781 39.517578 19.925781 C 38.227478 19.383981 35.929922 18.520583 33.232422 15.595703 C 31.106522 13.031063 31.884794 9.4713688 31.933594 6.4179688 C 32.008594 2.5010688 30.408228 0.73229563 27.173828 0.82226562 z M 27.21875 3.5976562 C 27.360762 3.5849689 27.4957 3.5913312 27.625 3.6132812 C 28.745 3.8063113 29.355009 5.3418581 29.037109 7.5175781 C 28.910509 8.3835081 28.651588 9.2363902 28.304688 10.025391 C 27.321587 9.0447202 26.064544 8.0709119 24.589844 7.2324219 C 24.366544 7.1053719 24.135309 6.9947963 23.912109 6.8789062 C 24.638009 5.3178363 25.706637 4.0687756 26.773438 3.6972656 C 26.927288 3.6436656 27.076738 3.6103438 27.21875 3.5976562 z M 11.296875 6.71875 C 11.525246 6.7292963 11.767109 6.770805 12.021484 6.8476562 C 12.945084 7.1266963 13.565316 7.7624831 13.916016 8.5644531 C 11.694416 9.4790631 9.7934656 11.094369 8.5722656 13.224609 C 7.9208656 12.347159 7.8089594 11.137684 8.1933594 9.8652344 C 8.7246594 8.1068606 9.6982746 6.6449257 11.296875 6.71875 z M 27.740234 14.201172 C 27.941877 14.214403 28.151356 14.244956 28.363281 14.294922 C 29.783481 14.629812 30.146822 15.611448 30.669922 16.923828 C 31.319522 18.553168 30.304881 19.488463 28.363281 19.414062 C 27.070681 19.364613 26.067578 18.108699 25.642578 16.443359 C 25.250228 14.906054 26.328734 14.108552 27.740234 14.201172 z M 19.816406 16.533203 C 21.334906 16.533203 22.165259 17.939338 22.568359 19.455078 C 23.052859 21.277098 21.825006 21.825166 19.816406 22.378906 C 18.026506 22.872356 16.998906 21.203778 17.066406 19.455078 C 17.128406 17.842968 18.298006 16.533203 19.816406 16.533203 z "
+       transform="translate(250.31078,282.33189)"
+       id="path6869-6" />
+    <path
+       d="m 279.43138,326.66811 c 0.047,3.15813 -1.9032,2.8405 -4.3669,2.81963 -2.9815,-0.0269 -4.2832,-0.19971 -4.1606,-2.88839 0.071,-1.55477 1.4062,-2.81962 3.8167,-2.81962 2.4106,0 4.7108,1.33193 4.7108,2.88838 z"
+       style="color:#000000;fill:#8a8a8a;fill-rule:evenodd;stroke:#8a8a8a;stroke-width:1.00482011;fill-opacity:1;stroke-opacity:1"
+       sodipodi:nodetypes="csssc"
+       id="path4882-0"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 290.84858,321.0741 c 0.029,2.55789 -1.1825,3.11416 -2.7133,4.12745 -1.8526,1.22492 -2.6613,1.62828 -2.5852,-0.61732 0.044,-1.29858 0.8737,-2.88917 2.3716,-3.89729 1.4977,-1.00809 2.9269,-0.883 2.9269,0.38725 z"
+       style="color:#000000;fill:#8a8a8a;fill-rule:evenodd;stroke:#8a8a8a;stroke-width:1.00482011;fill-opacity:1;stroke-opacity:1"
+       sodipodi:nodetypes="csssc"
+       id="path4885-1"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.62784338px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="198.30931"
+       y="347.48804"
+       id="text4616"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4618"
+         x="198.30931"
+         y="347.48804">Adapted from:</tspan><tspan
+         sodipodi:role="line"
+         x="198.30931"
+         y="357.02283"
+         id="tspan4620">https://openclipart.org/detail/75277/hippo-line-art</tspan></text>
+  </g>
+</svg>
