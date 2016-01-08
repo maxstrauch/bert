@@ -104,36 +104,22 @@ function usedDsk() {
 
 // Calculates the free disk space by parsing the `df` output
 // FIXME: this function might not work properly (test & correct)
-function freeDsk() {
+function totalDsk() {
 	createDownloadDir();
 
-	var result = -1;
+	var result = -1, totalDskSpace = -1;
 	try {
-		var result = 
+		totalDskSpace = parseInt(
 			require('child_process')
 			.execSync('df -Pk ./' + DOWNLOAD_DIR)
 			.toString()
 			.split(/\n/g)[1]
-			.split(/\s+/g);
-
-		var cnt = 0;
-		for (var i = 0; i < result.length; i++) {
-			if (result[i].match(/^[0-9]+$/g)) {
-				if (cnt == 1) {
-					result += parseInt(result[i]) * 1024;
-					break;
-				}
-				if (cnt == 2) {
-					result += parseInt(result[i]) * 1024;
-					break;
-				}
-				cnt++;
-			}
-		}
+			.replace(/.*?([0-9]+)(.+$)/i,'$1')
+		) * 1024;
 	} catch(e) {
-		result = -1; // Nothing fancy here
+		totalDskSpace = -1; // Nothing fancy here
 	}
-	return result;
+	return totalDskSpace;
 }
 
 // Simple function to provide some MIME types needed by the
@@ -393,12 +379,12 @@ function rest(args) {
 
 	if (args.cmd && args.cmd == 'dskstat') {
 		var used = usedDsk();
-		var free = freeDsk();
+		var total = totalDsk();
 		return {
 			'state': 200, 
 			'used': used, 
-			'free': free, 
-			'percent': (used/free)*100.0,
+			'total': total, 
+			'percent': (used/total)*100.0,
 		};
 	}
 
