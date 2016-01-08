@@ -32,6 +32,8 @@ I have created a `cron` entry in my Pi with `crontab -e` by adding the line `@re
 
 I don't know why there is a `sleep 120` anymore. But you all know the rule: never change a running system!
 
+The configuration is done in the first 32 lines of `server.js` - each parameter is documented there.
+
 # License
 
 Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). Click [here](http://creativecommons.org/licenses/by-sa/4.0/) for details. The license applies to the entire source code.
