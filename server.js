@@ -17,7 +17,7 @@ var DOWNLOAD_DIR = 'downloads/';
 // Name of this application (DO NOT CHANGE!)
 var APP_NAME = 'Bert';
 // Version of this application (DO NOT CHANGE!)
-var APP_VERSION = '0.42.1';
+var APP_VERSION = '0.42.2';
 // Script to be executed when the user clicks on "Run user script".
 // The second argument takes the script name relative to this file
 var SCRIPT = require('./ScriptRunner.js').ScriptRunner('./script.sh');

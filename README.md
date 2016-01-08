@@ -8,6 +8,8 @@ Use case: I often need to download large files which I don't want to download vi
 
 Bert uses `wget` and some other linux command line tools (e.g. `du`, `df`) as backend. NodeJS provides the server and application logic and invokes `wget` through some wrapper object and parses it output. 
 
+[Click here to read more about Bert on my blog!](http://maxstrauch.github.io/2016/01/08/bert-downloads-it.html)
+
 # Features
 
  - Simple
